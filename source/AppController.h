@@ -13,13 +13,15 @@
  * WLAN_SSID is the WIFI network name where user wants connect the XDK device.
  * Make sure to update the WLAN_PSK constant according to your required WIFI network.
  */
-#define WLAN_SSID                           "Bat Caverna-2.4GHz"
+#warning Please, configure your WLAN SSID
+#define WLAN_SSID                           ""
 
 /**
  * WLAN_PSK is the WIFI router WPA/WPA2 password used at the Wifi network connection.
  * Make sure to update the WLAN_PSK constant according to your router password.
  */
-#define WLAN_PSK                            "Warcraft7.0)"
+#warning Please, configure your WLAN Password
+#define WLAN_PSK                            ""
 
 /**
  * WLAN_STATIC_IP is a boolean. If "true" then static IP will be assigned and if "false" then DHCP is used.
@@ -71,21 +73,25 @@
 /**
  * APP_MQTT_BROKER_HOST_URL is the MQTT broker host address URL.
  */
-#define APP_MQTT_BROKER_HOST_URL            "192.168.15.25"
+#warning Please, configure your MQTT Broker Host URL
+#define APP_MQTT_BROKER_HOST_URL            ""
 
 /**
  * APP_MQTT_BROKER_HOST_PORT is the MQTT broker host port.
  */
+#warning Please, configure your MQTT Broker Host Port
 #define APP_MQTT_BROKER_HOST_PORT           UINT16_C(1883)
 
 /**
  * APP_MQTT_CLIENT_ID is the device name
  */
+#warning Please, configure your MQTT Client ID
 #define APP_MQTT_CLIENT_ID                  "XDK-5E-AC"
 
 /**
  * APP_MQTT_TOPIC is the topic to subscribe and publish
  */
+#warning Please, configure your MQTT Topic to Publish
 #define APP_MQTT_TOPIC                      "XDK"
 
 /**
