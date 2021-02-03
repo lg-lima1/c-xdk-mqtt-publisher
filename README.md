@@ -5,9 +5,6 @@ A simple MQTT Publisher using the XDK110 from Bosch. It acquires data from the b
 - Publishing period of 1 second
 - Temperature, pressure, humidity and light intensity
 
-## Flashing
-Just drag&drop the `.bin` file into the XDK Device when using the XDK Workbench and it should work
-
 ## Preparation
 - Modify the `AppController.h` WLAN and MQTT related macros to your needs
 - You will need an running MQTT broker. Could either run local in your machine, or be any from the internet
